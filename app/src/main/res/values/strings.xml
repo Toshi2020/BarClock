@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">BarClock</string>
+    <string name="switch1">Display Clock Start</string>
+    <string name="permission_restart">Please restart the app after giving permission.</string>
+    <string name="accessibility_desciription">It is used to detect the startup of terminal.</string>
+    <string name="mes_no_open">Could not start.</string>
+    <string name="title_setting">Display settings</string>
+    <string name="title_textcolor">Text color</string>
+    <string name="title_backcolor">Background color</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="info_apk">■ The date and time are displayed in the center of the status bar.</string>
+    <string name="info_accesibility">■ ① Display the "Accessibility Service" setting screen.\n・Turn this on if the display does not resume when the terminal starts up or wakes up from sleep. \n・In this app, accessibility is only used to detect device startup.</string>
+    <string name="button_accesibility">① Display the accessibility service setting screen</string>
+    <string name="info_battery">■ ② Displays the battery optimization setting screen. (Android 6.0 or higher) \n・If the accessibility service of ① is forcibly turned off when the terminal sleeps, it may not be turned off without optimizing the battery. \n・Depending on the terminal, there may be other settings to prevent it from being forcibly turned off.</string>
+    <string name="button_battery">② Display the battery optimization setting screen</string>
+    <string name="info_systemui">■ Turn on/off the status bar icon displayed by the OS. (Android 6.0 or higher) \n・There is a possibility that the time display on the original status bar can be turned off. \n・This is a hidden function in general, so it does not work on all terminals.</string>
+    <string name="button_systemui">Display System UI setting tool screen</string>
+    <string name="info_notification">■ Display the notification setting screen of the app. \n・You can turn off notifications if you find it annoying to hear a message in the notification area or the notification sound when this app starts displaying.</string>
+    <string name="button_notification">Display the notification setting screen of the app</string>
+    <string name="info_service">Tap to display the initial screen</string>
+</resources>

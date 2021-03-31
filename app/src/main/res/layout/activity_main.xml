@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+
+ <ScrollView
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:isScrollContainer="false" >
+  <LinearLayout
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical" >
+
+	<TextView
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="20dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:text="@string/info_apk"/>
+	<Switch
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="20dp"
+		android:layout_marginBottom="20dp"
+		android:id="@+id/switch1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="20sp"
+		android:text="@string/switch1" />
+	<Button
+		android:layout_gravity="center_horizontal"
+		android:layout_marginBottom="20dp"
+		android:id="@+id/button_setting"
+		android:textAllCaps="false"
+		android:text="@string/title_setting"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@color/colorPrimaryDark"/>
+	<TextView
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="10dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:text="@string/info_accesibility"/>
+	<Button
+		android:layout_gravity="center_horizontal"
+		android:layout_marginBottom="20dp"
+		android:id="@+id/button_ccecibility"
+		android:textAllCaps="false"
+		android:text="@string/button_accesibility"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@color/colorPrimaryDark"/>
+	<TextView
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="10dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:text="@string/info_battery"/>
+	<Button
+		android:layout_gravity="center_horizontal"
+		android:layout_marginBottom="20dp"
+		android:id="@+id/button_battery"
+		android:textAllCaps="false"
+		android:text="@string/button_battery"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@color/colorPrimaryDark"/>
+	<TextView
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="10dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:text="@string/info_systemui"/>
+	<Button
+		android:layout_gravity="center_horizontal"
+		android:layout_marginBottom="20dp"
+		android:id="@+id/button_systemui"
+		android:textAllCaps="false"
+		android:text="@string/button_systemui"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@color/colorPrimaryDark"/>
+	<TextView
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="10dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:text="@string/info_notification"/>
+	<Button
+		android:layout_gravity="center_horizontal"
+		android:layout_marginBottom="20dp"
+		android:id="@+id/button_notification"
+		android:textAllCaps="false"
+		android:text="@string/button_notification"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@color/colorPrimaryDark"/>
+  </LinearLayout>
+ </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<resources>
+	<string name="app_name">バー日時</string>
+	<string name="switch1">表示を開始 </string>
+	<string name="permission_restart">許可した後にアプリを再起動してください。</string>
+	<string name="accessibility_desciription">端末の起動検出のために使用します。</string>
+    <string name="mes_no_open">起動できませんでした。</string>
+    <string name="title_setting">表示設定</string>
+    <string name="title_textcolor">文字色</string>
+    <string name="title_backcolor">背景色</string>
+    <string name="button_cancel">キャンセル</string>
+    <string name="info_apk">■ステータスバーの中央に日時を表示します。</string>
+    <string name="info_accesibility">■①「ユーザー補助サービス」の設定画面を表示します。\n\n・端末起動時やスリープから復帰した時に表示が再開しない場合にオンにしてください。\n・このアプリではユーザー補助は端末の起動を検知するためだけにしか使われません。</string>
+    <string name="button_accesibility">①ユーザー補助サービス設定画面を表示</string>
+    <string name="info_battery">■②電池の最適化設定画面を表示します。(Android6.0以上)\n\n・端末がスリープするときに①のユーザー補助サービスが強制的にオフにされてしまう場合、電池の最適化をしないことでオフされなくなるかもしれません。\n・端末によってはこれ以外にも強制オフされないための設定があるかもしれません。</string>
+    <string name="button_battery">②電池の最適化設定画面を表示</string>
+    <string name="info_systemui">■OSが表示しているステータスバーのアイコンをオンオフします。(Android6.0以上)\n\n・元々のステータスバーの時刻表示を消せる可能性があります。\n・これは一般的には隠し機能なので全ての端末で動作するわけではありません。</string>
+    <string name="button_systemui">システムUI調整ツール画面を表示</string>
+    <string name="info_notification">■アプリの通知設定画面を表示します。\n\n・このアプリが表示を開始した時に通知領域にメッセージが出たり、通知音が鳴るのが煩わしいと感じた場合に通知をオフすることができます。</string>
+    <string name="button_notification">アプリの通知設定画面を表示</string>
+    <string name="info_service">タップして初期画面を表示</string>
+
+</resources>
