@@ -107,8 +107,7 @@ public class MainActivity extends AppCompatActivity
 	アプリ開始時の処理
 	------------------------------------------------------------------------*/
 	@Override
-	protected void onStart()
-	{
+	protected void onStart() {
 		super.onStart();
 
 		// 設定SWの状態によってサービス開始または停止
@@ -118,8 +117,7 @@ public class MainActivity extends AppCompatActivity
 	アプリ終了時の処理
 	------------------------------------------------------------------------*/
 	@Override
-	protected void onDestroy()
-	{
+	protected void onDestroy() {
 		if (fRestart) {	// 再起動要求あり？
 			Intent intent = new Intent(this, MainActivity.class);
 			intent.putExtra("EXTRA_DATA", 9999);
